@@ -1,0 +1,3 @@
+This is a 2D game where the goal is to not hit any of the circles. The user is the triangle and can move the triangle by moving the up, down, left and right arrow keys. The user has three lives which are represented by the hearts in the upper right corner. Once the three lives are gone, the game will prompt the user to press the space button to restart the game. 
+
+This game will run on Processing 3 or 4. To start the game, just press the play button. 

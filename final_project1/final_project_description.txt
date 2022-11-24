@@ -1,0 +1,15 @@
+This project utilizes processing to display a game, tri-dodge, that introduces a game where a player is trying to use a pointing triangle to avoid circles. User would use the directions bar to try to avoid the falling circles of different sizes. User can also press space bar to restart the game. When the player bumps into a circle, they lose a heart.
+
+The class: rules contains most code that operates the rules of our game. Circle class indicates one circle, and pointer class indicates the player triangle. Circles are put into array ;list and taken off when they leave the sketch.
+
+
+
+
+Distribution:
+Yang-Kai Hsieh : Made circle objects and put them into array list, implement circle falling movement and fix translation movement, modify rules on the amount of hearts
+
+Logan James : Game setup classes, pointer class, circle class, heart png files, Rule Classes and mechanics.
+Sai Nisanth Pola : Debug codes, rule classes functionality
+
+
+

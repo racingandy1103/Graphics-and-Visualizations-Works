@@ -1,0 +1,27 @@
+This project utilizes processing to create sketches of the outer space with a spaceship advancing forward, a planet with moons, and asteroid.
+
+Spaceship:
+The window and planet class use a physical simulation using velocity, acceleration, and friction to make the spaceship speed up by applying the velocity and then using friction to slow down the movement of the spaceship. Once the spaceship has moved off the screen, the spaceship is reset and the simulation happens over again. This is to make it appear as the spaceship is flying through space in a hyper-speed and then slow down to continue cruising. 
+
+Planet/Moon:
+The planet class on this sketch includes two moons, and the size of planet, along with the moving direction of the planet can all be adjusted as variables in the class. Two hierarchal movements are in this class, one being the rotating planet and the other being the two moons that rotates the planet object. The planet is colored light blue with a directional lighting of the sun from the positive direction. Bumps can be found on the planet objects to more clearly see the rotation movement of the planet and add authenticity.
+
+This assignment adds to the last one, adding acceleration force to the moons spinning around the planet. As the moons accelerate to a certain speed, it'll turn into negative acceleration and slow down. This is implemented through the pull method in planet function.
+The second force is a pulling and pushing force that pulls the moons in. When the moon gets so close it nearly bumps into the planet, it gets push back by a rejecting pushing force. When it gets far away enough from the planet, the pulling force acts back on and pushes the moon back in. 
+
+
+Asteroid:
+This asteroid class adds to the previous assignment. This class now includes a physics based simulation that shows the asteroids moving in with acceleration due to force in the x and y direction.
+In addition, to make sure the asteroids don't fall to aliasing due to the velocity increasing too much, I made them bounce of the edges of the canvas to simulate a closed environment.
+Although this is not how asteroids would behave in space, since there is actually no force that causes acceleration, if there were forces and gravity towards the bottom right of the screen, this is how the asteroids would react.
+
+
+
+
+Distribution:
+Yang-Kai Hsieh : Planet Class / Planet.objs
+Logan James : Spaceship and Window Class / spaceship.objs /background setup
+Sai Nisanth Pola : Asteroid Class
+
+
+
